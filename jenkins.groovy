@@ -45,19 +45,5 @@ pipeline{
                 }
             }
         }
-        stage('Testing'){
-            steps{
-                sh 'mvn test'
-            }
-            post{
-                success{
-                    echo "test completed"
-                    junit "target/surefire-reports/*.xml"
-                }
-                failure{
-                    echo "test failed"
-                }
-            }
-        }
     }
 }
