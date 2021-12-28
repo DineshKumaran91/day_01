@@ -1,0 +1,6 @@
+ - Generate API token in Jenkins user --> configure
+ - URL in Webhook settings--> http://[jenkinsIP]:8080/github-webhook/
+ - Content type --> Json  --> Add webhook
+
+117f8eed83384b6889370729de88b848f9
+ - target/surefire-reports/*.xml

@@ -1,0 +1,10 @@
+ - Deploy EC2 with SG
+ - Install docker --> https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+ - Install docker-compose --> https://gist.github.com/npearce/6f3c7826c7499587f00957fee62f8ee9
+ - Create Volume mapping
+ - copy docker yaml file and install jenkins
+
+
+Shell script --> Git clone(code checkout into jenkins server) --> Maven
+
+sameple JavaMaven project:https://github.com/jenkins-docs/simple-java-maven-app

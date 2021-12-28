@@ -1,0 +1,23 @@
+ - Postbuild actions(Archive Artifact)
+ - Git Poll SCM and Git Hookup
+ - Global environment variables & Default Environment Variables
+ - Pipeline
+    --> Declarative 
+    --> Scripted
+
+Declarative Pipeline:
+ -Pipeline
+   -agent
+   -stages
+      -stage
+         -steps
+         -post
+            -always
+            -success
+            -failure
+      -stage
+         -steps
+         -post
+            -always
+            -success
+            -failure
