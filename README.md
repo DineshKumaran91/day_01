@@ -15,4 +15,4 @@ contains a shell script with commands that are executed when Jenkins processes
 the "Deliver" stage of your Pipeline.
 
 
-Checking Poll SCM to check if this triggring the build
+Checking git webhook
